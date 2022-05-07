@@ -40,6 +40,7 @@ Route::any('/getCities/{country}', function ($country) {
     return $list_cities;
 });
 
+
  //==============================Translate all pages============================
 Route::group(
     [
